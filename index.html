@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nirvana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>Welcome to Your Mindful Space</h1>
+
+    <div class="card" id="chatbot">
+      <h2>Chatbot</h2>
+      <p>Talk to a calming, supportive chatbot anytime.</p>
+      <button onclick="navigateTo('chatbot.html')">Open Chatbot</button>
+    </div>
+
+    <div class="card" id="community">
+      <h2>Community</h2>
+      <p>Connect with others on a peaceful path.</p>
+      <button onclick="navigateTo('community.html')">Visit Community</button>
+    </div>
+
+    <div class="card" id="journal">
+      <h2>Journal</h2>
+      <p>Write your thoughts and reflect quietly.</p>
+      <button onclick="navigateTo('journal.html')">Open Journal</button>
+    </div>
+
+    <div class="card" id="mood">
+      <h2>Mood Tracker</h2>
+      <p>Track how you feel and grow gently.</p>
+      <button onclick="navigateTo('mood.html')">Track Mood</button>
+    </div>
+
+  </div>
+
+  <script>
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
